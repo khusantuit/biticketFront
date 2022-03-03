@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
     @RequestMapping(value={"", "/"})
     public String getIndex(Model model) {
-        model.addAttribute("eventName", "FIFA 2018");
+        model.addAttribute("eventName", "FIFA");
 
         return "index";
     }
